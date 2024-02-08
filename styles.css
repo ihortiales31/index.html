@@ -1,4 +1,4 @@
-h1{
+.estilo_1{
     color: red;
     text-align:left; 
     background-color: greenyellow; 
@@ -7,20 +7,20 @@ h1{
   }
 
 
-h2{
+.estilo_2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25pt;
     text-align:center; 
   }
 
-h3{
+.estilo_3{
     color:burlywood;
     text-align: right;
     background-color: bisque;
     font-size: 25pt;
 }
 
-h4{
+.estilo_3{
     color:chocolate;
     text-align: center;
     background-color: cornsilk;
@@ -28,7 +28,7 @@ h4{
     font-size: 25pt;
 }
 
-h5{
+.estilo_5{
     color: rgb(0, 94, 255);
     text-align:left; 
     background-color: greenyellow; 
@@ -37,20 +37,20 @@ h5{
   }
 
 
-h6{
+.estilo_6{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25pt;
     text-align:center; 
   }
 
-h7{
+.estilo_7{
     color:burlywood;
     text-align: right;
     background-color: bisque;
     font-size: 25pt;
 }
 
-h8{
+.estilo_8{
     color:chocolate;
     text-align: center;
     background-color: cornsilk;
