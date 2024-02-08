@@ -11,3 +11,9 @@ h1{
     font-size: 15pt;
     text-align: justify;
   }
+
+h2{
+    color:burlywood;
+    text-align: left;
+    background-color: bisque;
+}
