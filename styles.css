@@ -6,13 +6,13 @@ h1{
   }
 
 
-  p{
+  h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15pt;
     text-align: justify;
   }
 
-h2{
+h3{
     color:burlywood;
     text-align: left;
     background-color: bisque;
