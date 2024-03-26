@@ -11,7 +11,7 @@
   <body>
     <p class="estilo_1" >MUESTRARIO DE INPUTS </p>
 
-    <h1 class="estilo_4" > Opción 1: "password" </h1>
+    <h1 class="estilo_4" > Opción 1: "Password" </h1>
     <form action="/action_page.php">
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" value="John"><br>
@@ -32,7 +32,7 @@
       <label for="javascript">JavaScript</label>
     </form>
 
-    <h1 class="estilo_4" > Opción 3: "checkbox" </h1>
+    <h1 class="estilo_4" > Opción 3: "Checkbox" </h1>
     <form>
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
       <label for="vehicle1"> I have a bike</label><br>
@@ -43,24 +43,25 @@
     </form>
 
 
-    <h1 class="estilo_4"> Opción 4_ "button" </h1>
+    <h1 class="estilo_4"> Opción 4: "Button" </h1>
     <input type="button" onclick="alert('Hello World!')" value="Click Me!">
 
 
-    <h2 class="estilo_4"> Opción 5: "color" </h2>
+    <h1 class="estilo_4"> Opción 5: "Color" </h1>
     <form>
       <label for="favcolor">Select your favorite color:</label>
       <input type="color" id="favcolor" name="favcolor">
     </form>
 
-    <h3 class="estilo_4"> Opción 6: "Date" </h3>
+    <h1 class="estilo_4"> Opción 6: "Date" </h1>
     <form>
+      <h2> simple date </h2>
       <label for="birthday">Birthday:</label>
       <input type="date" id="birthday" name="birthday">
     </form>
 
     <form>
-      <h1> max and min </h1>
+      <h2> max and min </h2>
       <label for="datemax">Enter a date before 1980-01-01:</label>
       <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
       <label for="datemin">Enter a date after 2000-01-01:</label>
@@ -68,7 +69,7 @@
     </form>
 
     <form>
-      <h1> datetime-local </h1>
+      <h2> datetime-local </h2>
       <label for="birthdaytime">Birthday (date and time):</label>
       <input type="datetime-local" id="birthdaytime" name="birthdaytime">
     </form>
@@ -84,25 +85,60 @@
       <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
     </form>
 
-    <h1 class="estilo_4"> Opción 9_ "File" </h1>
+    <h1 class="estilo_4"> Opción 9: "File" </h1>
     <form>
       <label for="myfile">Select a file:</label>
       <input type="file" id="myfile" name="myfile">
     </form>
 
-    <h1 class="estilo_4"> Opción 10 </h1>
-    <h2 class="estilo_4"> Opción 11 </h2>
-    <h3 class="estilo_4"> Opción 12 </h3>
-    <h1 class="estilo_4"> Opción 13 </h1>
-    <h2 class="estilo_4"> Opción 14 </h2>
-    <h3 class="estilo_4"> Opción 15 </h3>
+    <h1 class="estilo_4"> Opción 10: " Hidden" </h1>
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <input type="hidden" id="custId" name="custId" value="3487">
+      <input type="submit" value="Submit">
+    </form>
+
+    <h1 class="estilo_4"> Opción 11: "Month" </h1>
+    <form>
+      <label for="bdaymonth">Birthday (month and year):</label>
+      <input type="month" id="bdaymonth" name="bdaymonth">
+    </form>
+
+    <h1 class="estilo_4"> Opción 12: "Number" </h1>
+    <form>
+      <h2> Sin restricciones </h2>
+      <label for="quantity">Quantity (between 1 and 5):</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </form>
+
+    <form>
+      <h2> Con restricciones </h2>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+    </form>
+
+    <h1 class="estilo_4"> Opción 13: "Range" </h1>
+    <form>
+      <label for="vol">Volume (between 0 and 50):</label>
+      <input type="range" id="vol" name="vol" min="0" max="50">
+    </form>
+
+    <h1 class="estilo_4"> Opción 14: "Search" </h1>
+    <form>
+      <label for="gsearch">Search Google:</label>
+      <input type="search" id="gsearch" name="gsearch">
+    </form>
+
+    
+    <h1 class="estilo_4"> Opción 15 </h1>
     <h1 class="estilo_4"> Opción 16 </h1>
-    <h2 class="estilo_4"> Opción 17 </h2>
-    <h3 class="estilo_4"> Opción 18 </h3>
-    <h3 class="estilo_4"> Opción 19 </h3>
-    <h3 class="estilo_4"> Opción 20 </h3>
-    <h3 class="estilo_4"> Opción 21 </h3>
-    <h3 class="estilo_4"> Opción 22 </h3>
+    <h1 class="estilo_4"> Opción 17 </h1>
+    <h1 class="estilo_4"> Opción 18 </h1>
+    <h1 class="estilo_4"> Opción 19 </h1>
+    <h1 class="estilo_4"> Opción 20 </h1>
+    <h1 class="estilo_4"> Opción 21 </h1>
+    <h1 class="estilo_4"> Opción 22 </h1>
 
     
   </body>
