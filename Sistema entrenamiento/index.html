@@ -64,35 +64,48 @@
                 <div class="container px-5">
                     <p id="Objetivo general">
                     <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Objetivos General -</h2>
-                        <p class="fs-6 mb-2">Diseñar un sistema de monitoreo para el estudio y alerta temprana de episodios de muerte súbita cardiaca en adultos mayores. </p>
-
+                        <p class="fs-6 mb-2">Implementar un sistema de entrenamiento que ayude al desarrollo de la psicomotricidad gruesa en niños con discapacidad visual del equipo “Topos Puebla” </p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/Traje de seguimiento.png" alt="..." /></figure>
   
                     <p id="Objetivos Especificos">
                     <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Objetivos Especificos -</h2>
-                        <p class="fs-6 mb-2">- Entrevistar a un experto médico para identificar los síntomas y dispositivos existentes.</p>
-                        <p class="fs-6 mb-2">- Utilizar la información obtenida para elaborar una lista con los requerimientos y características del sistema.</p>
-                        <p class="fs-6 mb-2">- Establecer la arquitectura del sistema.</p>
-                        <p class="fs-6 mb-2">- Establecer un método óptimo de comunicación entre el software y hardware del sistema de monitoreo.</p>
+                        <p class="fs-6 mb-2">- Definir los requerimientos y características técnicas de un traje que ayude al desarrollo psicomotriz en niños con discapacidad visual</p>
+                        <p class="fs-6 mb-2">- Diseñar un sistema que ayude al desarrollo de la psicomotricidad gruesa de acuerdo con los requerimientos</p>
+                        <p class="fs-6 mb-2">- Desarrollar elementos de hardware y software del sistema entrenamiento.</p>
+                        <p class="fs-6 mb-2">- Realizar pruebas de campo con usuarios de la comunidad Topos Puebla.</p>
                     
                     <p id="desarrollo">
                     <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Propusimos un sistema el cual se basa en circuito en una playera de compresion en la cual se encontrarian 
-                            3 dispositivos: electrocardiograma, pulsioximetro y termometro corporal. 
-                            El microcontrolador del sistema seria un ESP32, el cual mandaria la información a un servidor para el procesamiento de datos. 
+                        <p class="fs-6 mb-4">Diseñamos una placa PCB que tuviera los siguientes componentes: 
+                            ESP32WROOM como microcontrolador, un modulo de vibración PWM para retroalimentación haptica, un acelerometro MPU-6050 para obtener angulos de inclinación y pines de programación. 
+                            Tambien se diseño una caja para proteger la placa y que se pudiera colocar con una correa en las extremidades de nuestros usuarios. 
                         </p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/circuito 1.png" alt="..." /></figure>
-                        <p class="fs-6 mb-4">El procesamiento de datos seguiria la siguiente ruta, donde en caso de que los datos obtenidos cumplan con los parametros de alerta, 
-                            se comunicara con el doctor de cabecera y un familiar para la rapida atención. 
+                        <p class="fs-6 mb-4">A continuación se muestra la placa y su caja, con una correa de velcro para ajustarla en la extremidad deseada y los cables de alimentación. 
                         </p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/Imagen1.png" alt="..." /></figure>
-                      
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="800px" src="img/Placa y caja.JPEG" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4"> Una vez que se armaron las 8 correas con sus placas y que estuvieron conectadas a la fuente de poder, 
+                            se coloco el traje en nuestro usuario control para obtener los angulos estandar y determinar el rango permisible. 
+                            Para la medición de los angulos, se uso comunicación Wifi para mandar los datos de la ESP32 a un servidor donde se guardaban los datos y graficaban en tiempo real. 
+                        </p>
+                        <figure class="mb-4 d-flex flex-row w-100 justify-content-around align-middle">  <img class="img-fluid rounded h-100"  width="400px" src="img/usuario control.JPEG" alt="..." 
+                            align="right"> <img class="img-fluid rounded"  width="400px" src="img/usuario control 2.JPEG" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4">Por ultimo, se hicieron las pruebas correspondientes con los usuarios de Topos Puebla. 
+                            </p>
+                        <figure class="mb-4 d-flex flex-row w-100 justify-content-around align-middle">  <img class="img-fluid rounded h-100"  width="400px" src="img/IMG_9930.JPEG"  alt="..." 
+                            align="center"> <img class="img-fluid rounded"  width="400px" src="img/IMG_9958.PNG" alt="..."
+                            align="right"> <img class="img-fluid rounded"  width="400px" src="img/IMG_9922.JPEG"  alt="..." /></figure>
+
+                        <div class="d-grid py-2 px-4"><a class="btn btn-primary" href="https://ieeexplore.ieee.org/document/10766030">Consultar articulo en IEEE</a></div>
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
                         <p class="fs-6 mb-4">
                             El sistema tiene como objetivo mejorar la calidad del tratamiento médico al monitorear la salud de los pacientes de forma remota 
                             debido a que los equipos actuales para estudios de este tipo son poco ergonomicos y molestos para los pacientes.  
-                            
+                            Durante la investigación del proyecto observamos la poca investigación que se ha hecho en este campo, siendo una gran oportunidad para seguir trabajando este traje. 
+                            Tambien se tuvo un focus group con los usuarios para obtener retroalimentación sobre las areas de mejora del primer prototipo. 
                         </p>        
                 </div>
             </section>
